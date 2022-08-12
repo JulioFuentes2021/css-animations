@@ -1,0 +1,49 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.rotate-by-deg {
+    transform: rotate(360deg);
+}
+
+.rotate-by-rad {
+    transform: rotate(-.1rad);
+}
+
+.rotate-by-turn {
+    transform: rotate(1turn);
+}
+
+.scaleX {
+    transform: scaleX(0.25);
+}
+
+.scaleY {
+    transform: scaleY(1.5);
+}
+
+.scaleXY {
+    transform: scale(0.25, 1.5);
+}
+
+.scale {
+    transform: scale(0.5);
+}
+
+.red-box,
+.blue-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.red-box {
+    background: red;
+    transform: translateX(200%) rotate(45deg);
+}
+
+.blue-box {
+    background: blue;
+    transform: translateY(200%) rotate(45deg);
+}
